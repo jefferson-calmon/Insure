@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -7,17 +7,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet preload" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet preload" href="css/styles.css">
 
   
-  <title>Frontend Mentor | Insure landing page</title>
+  <title>Insure</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 11px; text-align: center; font-size: 16px;}
+    .attribution a { color: hsl(228, 45%, 44%); font-size: inherit;  }
   </style>
 </head>
 <body>
@@ -124,38 +125,64 @@
 
 <footer>
   <div class="container">
-    <div class="">
+    <div class="top-footer flex">
+      <img src="./images/logo.svg" alt="Logo insure">
 
+      <div class="social">
+        <a href="#">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-pinterest"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
     </div>
 
     <div class="separator"></div>
 
-    <div class="sub-footer">
-      Our company
+    <div class="bottom-footer flex">
+      <div>
+        <h4>Our company</h4>
+        
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Why Insure?</a></li>
+        <li><a href="#">View plans</a></li>
+        <li><a href="#">Reviews</a></li>
+      </div>
       
-      How we work
-      Why Insure?
-      View plans
-      Reviews
+      <div>
+        <h4>Help me</h4>
+        
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Cookies</a></li>
+      </div>
       
-      Help me
+      <div>
+        <h4>Contact</h4>
+        
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Live chat</a></li>
+      </div>
       
-      FAQ
-      Terms of use
-      Privacy policy
-      Cookies
-      
-      Contact
-      
-      Sales
-      Support
-      Live chat
-      
-      Others
-      
-      Careers
-      Press
-      Licenses
+      <div>
+        <h4>Others</h4>
+        
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Licenses</a></li>
+      </div>
     </div>
   </div>
 </footer>
@@ -163,7 +190,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.linkedin.com/in/jefferson-f-b24248191/">Jefferson Ferrari</a>.
   </div>
 </body>
 </html>
