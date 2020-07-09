@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+
   
   <title>Frontend Mentor | Insure landing page</title>
 
@@ -16,35 +22,83 @@
 </head>
 <body>
 
-  How we work
-  Blog
-  Account
-  View plans
+<header>
+  <div class="container">
+    <div class="logo">
+      <h1>
+        <img src="./images/logo.svg" alt="Insure">
+      </h1>
+    </div>
 
-  Humanizing your insurance.
+    <nav>
+      <ul>
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#" class="call-view">View plans</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
+<section id="banner">
+  
+  <img src="./images/bg-pattern-intro-left-desktop.svg" class="image-background-banner left" alt="background">
+  <img src="./images/bg-pattern-intro-right-desktop.svg" class="image-background-banner right" alt="background">
+  <div class="container">
 
-  View plans
+    <div class="content-banner block-banner">
 
-  We’re different
+      <h1>Humanizing your insurance.</h1>
+      <p>
+        Get your life insurance coverage easier and faster. We blend our expertise 
+        and technology to help you find the plan that’s right for you. Ensure you 
+        and your loved ones are protected.
+      </p>
+      
+      <a href="#" class="call-view">View plans</a>
+    </div>
+    
+    <div class="image-banner block-banner">
+      <img src="./images/image-intro-desktop.jpg" alt="Insure image banner">
+    </div>
+  </div>
+</section>
 
-  Snappy Process
-
-  Our application process can be completed in minutes, not hours. Don’t get 
-  stuck filling in tedious forms.
-
-  Affordable Prices
-
-  We don’t want you worrying about high monthly costs. Our prices may be low, 
-  but we still offer the best coverage possible.
-
-  People First
-
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
+<section id="diferences">
+  <div class="container">
+    <h2>We’re different</h2>
+    
+    <div class="grid-diferences">
+      <div class="box-grid">
+        <h3>Snappy Process</h3>
+      
+        <p>
+          Our application process can be completed in minutes, not hours. Don’t get 
+          stuck filling in tedious forms.
+        </p>
+      </div>
+      
+      <div>
+        <h3>Affordable Prices</h3>
+      
+        <p>
+          We don’t want you worrying about high monthly costs. Our prices may be low, 
+          but we still offer the best coverage possible.
+        </p>
+      </div>
+      
+      <div class="box-grid">
+        <h3>People First</h3>
+      
+        <p>
+          Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+          sure you’re covered when you need it.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
   Find out more about how we work
 
