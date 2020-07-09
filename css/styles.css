@@ -189,6 +189,7 @@ header .container nav ul li a.call-view:hover{
 
 #diferences .container{
     padding-top: 260px;
+    padding-bottom: 75px;
 }
 
 #diferences .container h2{
@@ -209,6 +210,29 @@ header .container nav ul li a.call-view:hover{
     background: #ddd;
 }
 
+.grid-diferences{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    min-height: 20vh;
+}
+
+/* .grid-diferences .box-grid{
+    background: blue;
+} */
+
+.grid-diferences .box-grid h3{
+    font-size: 24px;
+    margin: 15px 0;
+    color: var(--Very-Dark-Violet);
+}
+
+.grid-diferences .box-grid p{
+    color: var(--Dark-Grayish-Violet);
+    font-size: 16.5px;
+}
 
 body{
     background: #fafafa;
