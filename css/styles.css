@@ -25,7 +25,7 @@ h1, h2, h3{
 }
 
 ::selection{
-    background: var(--Dark-Violet);
+    background: #2d2640;
     color: #fafafa;
 }
 
@@ -219,9 +219,10 @@ header .container nav ul li a.call-view:hover{
     min-height: 20vh;
 }
 
-/* .grid-diferences .box-grid{
-    background: blue;
-} */
+.grid-diferences .box-grid div{
+    user-select: none;
+    pointer-events: none;
+}
 
 .grid-diferences .box-grid h3{
     font-size: 24px;
@@ -232,6 +233,50 @@ header .container nav ul li a.call-view:hover{
 .grid-diferences .box-grid p{
     color: var(--Dark-Grayish-Violet);
     font-size: 16.5px;
+}
+
+#work{
+    min-height: 37vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--Dark-Violet);
+    color: #fafafa;
+    padding: 0 60px;
+    margin-top: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+#work h1{
+    font-size: 50px;
+    width : 50%;
+    line-height: 47px;
+}
+
+#work a{
+    padding: 15px 25px;
+    border: 2px solid #fafafa;
+    text-decoration: none;
+    color: inherit;
+    font-size: 18.5px;
+    font-weight: bolder;
+    transition: .1s;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+#work a:hover{
+    background: #fafafa;
+    color: var(--Dark-Violet);
+}
+
+#work img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
 }
 
 body{
