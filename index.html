@@ -17,7 +17,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; font-size: 16px;}
+    .attribution { font-size: 11px; text-align: center; font-size: 16px; background: #fafafa;}
     .attribution a { color: hsl(228, 45%, 44%); font-size: inherit;  }
   </style>
 </head>
@@ -29,6 +29,12 @@
       <h1>
         <img src="./images/logo.svg" alt="Insure">
       </h1>
+    </div>
+
+    <div id="toggle" onclick="toggle()">
+      <span class="one"></span>
+      <span class="two"></span>
+      <span class="thr"></span>
     </div>
 
     <nav>
@@ -46,7 +52,10 @@
   
   <img src="./images/bg-pattern-intro-left-desktop.svg" class="image-background-banner left" alt="background">
   <img src="./images/bg-pattern-intro-right-desktop.svg" class="image-background-banner right" alt="background">
-  <div class="container">
+
+  <!-- desktop -->
+
+  <div class="container desktop">
 
     <div class="content-banner block-banner">
 
@@ -64,6 +73,33 @@
       <img src="./images/image-intro-desktop.jpg" alt="Insure image banner">
     </div>
   </div>
+
+  <!-- ------ -->
+
+  <!-- Mobile -->
+  
+  <div class="container-mobile">
+    <div class="image-banner block-banner">
+      <!-- <img src="./images/image-intro-desktop.jpg" alt="Insure image banner"> -->
+    </div>
+    
+    <div class="content-banner block-banner">
+      <img src="./images/bg-pattern-intro-left-mobile.svg" class="mobile-left mobile-bg" alt="">
+      <img src="./images/bg-pattern-intro-right-mobile.svg" class="mobile-right mobile-bg" alt="">
+      <h1>Humanizing<br> your insurance.</h1>
+      <p>
+        Get your life insurance coverage easier and faster. We blend our expertise 
+        and technology to help you find the plan that’s right for you. Ensure you 
+        and your loved ones are protected.
+      </p>
+      
+      <a href="#" class="call-view">View plans</a>
+    </div>
+    
+  </div>
+
+  <!-- ------ -->
+
 </section>
 
 <section id="diferences">
@@ -113,6 +149,7 @@
     
     <section id="work">
       <img src="./images/bg-pattern-how-we-work-desktop.svg" alt="background section how we work">
+      <img src="./images/bg-pattern-how-we-work-mobile.svg" class="mobile-work" alt="">
 
       <h1>Find out more about how we work</h1>
       
@@ -192,5 +229,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/jefferson-f-b24248191/">Jefferson Ferrari</a>.
   </div>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
