@@ -2,8 +2,9 @@
     <h1>Insure</h1>
     <p>Empresa de seguros feita totalmente para você</p>
 
-    <img src="./design/desktop-preview.jpg">
 </div>
+
+<img src="./design/desktop-preview.jpg" align="center">
 
 
 ## :dart: About
@@ -22,7 +23,7 @@ Para ver o site na web, clique [aqui](https://insure-c72bvlsra.vercel.app/)
 
 - Javascript
 
-## :tecnologist: Desenvolvedor
+## :technologist: Desenvolvedor
 
 Jovem apaixonado por programação e tecnologias, Jefferson Ferrari é um desenvolvedor front-end com skills envolvendo ferrarmentas Javascript, como por exemplo: React, React Native, NodeJS, Python, Javascript e etc.
 
